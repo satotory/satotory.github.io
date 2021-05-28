@@ -1,14 +1,33 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
-.post-list_my { margin-left: 0; list-style: none; counter-reset: zxc; }
-.post-list_my:before { counter-increment: zxc; content: "Глава " counter(zxc) ". "}
+.chapter-title {
+    text-align: center;
+    border-bottom: 1px #828282 solid;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+}
 
-.post-meta_my { font-size: 14px; color: #828282; list-style: none; counter-reset: zxc2;}
-.post-meta_my:before {counter-increment: zxc2; content: counter(zxc) "." counter(zxc2) ". ";}
+.post-list_title { margin-left: 0; list-style: none; counter-reset: zxc;     
+}
+.post-list_title:before { counter-increment: zxc; content: counter(zxc) ". "}
 
-.post-link_my { display: block; font-size: 1.5rem; counter-reset: zxc3; }
-.post-link_my:before {counter-increment: zxc3; content: counter(zxc) "." counter(zxc2) "." counter(zxc3) ". ";}
+.post-meta_my { font-size: 20px; color: #828282; list-style: none; 
+    padding: 0;
+    margin: 0;
+    counter-reset: b;
+    margin-bottom: 24px;
+    list-style-type: none;
+    column-gap: 10px;
+    columns: 2;
+}
+
+.post-link_my { display: block; font-size: 18; counter-reset: zxc2;}
+.post-link_my:before {counter-increment: zxc2; content: counter(zxc) "." counter(zxc2) ". ";;}
+
+
 
 .post-meta_post {
     font-size: 18px; 

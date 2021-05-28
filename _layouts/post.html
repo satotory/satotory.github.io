@@ -46,7 +46,7 @@ layout: default
         {% endfor %}
       {%- endif -%}</p>
       -->
-      
+
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -57,5 +57,13 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
+  <div class="PageNavigation">
+    {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    {% endif %}
+  </div>
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

@@ -1,5 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-28T14:27:51+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Учебник по иформатике</title><subtitle>Этот учебник предназначен для изучения курса «Информатика» в 11 классе на углубленном уровне. Авторы курса желают вам успеха в освоении непростого, но очень интересного и актуального учебного предмета!
-</subtitle><author><name>Ruslan Kornev</name><email>ruskosha@gmail.com</email></author><entry><title type="html">eqwweqqwe</title><link href="http://localhost:4000/2021/05/28/new-post.html" rel="alternate" type="text/html" title="eqwweqqwe" /><published>2021-05-28T12:38:00+03:00</published><updated>2021-05-28T12:38:00+03:00</updated><id>http://localhost:4000/2021/05/28/new-post</id><content type="html" xml:base="http://localhost:4000/2021/05/28/new-post.html">&lt;p&gt;qweqew&lt;/p&gt;</content><author><name>Ruslan Kornev</name><email>ruskosha@gmail.com</email></author><summary type="html">qweqew</summary></entry><entry><title type="html">Что такое система?</title><link href="http://localhost:4000/chapter_1/2021/05/28/chtotakoesistema.html" rel="alternate" type="text/html" title="Что такое система?" /><published>2021-05-28T00:00:00+03:00</published><updated>2021-05-28T00:00:00+03:00</updated><id>http://localhost:4000/chapter_1/2021/05/28/chtotakoesistema</id><content type="html" xml:base="http://localhost:4000/chapter_1/2021/05/28/chtotakoesistema.html">&lt;p&gt;Понятие системы, так же как и понятие информации, относится к числу фундаментальных научных понятий. Так же как и для информации, для системы нет единственного общепринятого оп- ределения. В то же время это понятие часто используется нами. в бытовой речи, употребляется в научной терминологии. Вот ряд. примеров употребления понятия «система»: система образования, транспортная система, система связи, Солнечная система, нервная система, Периодическая система химических элементов, система счисления, операционная система, информационная система.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-28T17:33:01+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Учебник по иформатике</title><subtitle>Этот учебник предназначен для изучения курса «Информатика» в 11 классе на углубленном уровне. Авторы курса желают вам успеха в освоении непростого, но очень интересного и актуального учебного предмета!
+</subtitle><author><name>Ruslan Kornev</name><email>ruskosha@gmail.com</email></author><entry><title type="html">Что такое информационная система</title><link href="http://localhost:4000/chapter_1/2021/05/28/chtotakoeinf.html" rel="alternate" type="text/html" title="Что такое информационная система" /><published>2021-05-28T17:24:00+03:00</published><updated>2021-05-28T17:24:00+03:00</updated><id>http://localhost:4000/chapter_1/2021/05/28/chtotakoeinf</id><content type="html" xml:base="http://localhost:4000/chapter_1/2021/05/28/chtotakoeinf.html"></content><author><name>Ruslan Kornev</name><email>ruskosha@gmail.com</email></author><category term="Chapter_1" /><summary type="html"></summary></entry><entry><title type="html">Модели систем</title><link href="http://localhost:4000/chapter_1/2021/05/28/modelysistem.html" rel="alternate" type="text/html" title="Модели систем" /><published>2021-05-28T15:16:00+03:00</published><updated>2021-05-28T15:16:00+03:00</updated><id>http://localhost:4000/chapter_1/2021/05/28/modelysistem</id><content type="html" xml:base="http://localhost:4000/chapter_1/2021/05/28/modelysistem.html">&lt;p&gt;Системный анализ&lt;/p&gt;
+
+&lt;p&gt;Исследование некоторой реальной системы состоит из двух эта-
+пов: анализа и синтеза.&lt;/p&gt;
+
+&lt;p&gt;Анализ системы — это выделение ее частей с целью проясне-
+ния состава системы. В предыдущем разделе мы говорили, что
+каждая часть системы — это подсистема, и у этой подсистемы
+есть свои части. Однако невозможно раскладывать систему беско-
+нечно. На чем-то придется остановиться. Какие-то части принять
+за простые, далее неделимые элементы. Вопрос о том, на чем
+следует остановить «дробление» системы, зависит от цели иссле-
+дования. Целью исследования системы является получение ее
+модели — приближенного представления об устройстве и функ-
+ционировании системы. Полученная модель будет использоваться
+для прогнозирования поведения системы в некоторых условиях,
+для управления системой, для диагностики сбоев в функциони-
+ровании системы и пр.&lt;/p&gt;
+
+&lt;p&gt;Однако невозможно понять механизм функционирования сис-
+темы, выяснив только ее состав. Необходимо знать структуру
+связей между частями системы. Только в совокупности состава
+и структуры можно понять состояние и поведение системы. Поэ-
+тому анализ системы — это первый этап ее исследования. Второй
+этап называется синтезом. Слово «синтез» означает «соединение».
+Синтез — это мысленное или реальное соединение частей в еди-
+ное целое. В результате синтеза создается целостное представле-
+ние о системе, объясняется механизм системного эффекта.&lt;/p&gt;
+
+&lt;p&gt;‘Системным анализом называется исследование реальных объек-
+тов и явлений с точки зрения системного подхода, состоящее
+из этапов анализа и синтеза.&lt;/p&gt;
+
+&lt;p&gt;Всякое описание системы носит модельный характер, т. е.
+отражает ограниченное число ее свойств. Главный вопрос при
+построении модели системы: какие ее характеристики являют-
+ся существенными с точки зрения целей использования будущей
+модели.&lt;/p&gt;
+
+&lt;p&gt;‘Модель «черного ящика»&lt;/p&gt;
+
+&lt;p&gt;В простейшем случае бывает достаточно иметь представление о
+взаимодействии системы с внешней средой, не вдаваясь в подроб-
+ности ее внутреннего устройства. Например, при использовании
+сложной бытовой техники вам совсем не обязательно знать ее
+устройство. Достаточно знать, как ею пользоваться, т. е. какие&lt;/p&gt;</content><author><name>Ruslan Kornev</name><email>ruskosha@gmail.com</email></author><category term="Chapter_1" /><summary type="html">Системный анализ</summary></entry><entry><title type="html">Что такое система?</title><link href="http://localhost:4000/chapter_1/2021/05/28/chtotakoesistema.html" rel="alternate" type="text/html" title="Что такое система?" /><published>2021-05-28T00:00:00+03:00</published><updated>2021-05-28T00:00:00+03:00</updated><id>http://localhost:4000/chapter_1/2021/05/28/chtotakoesistema</id><content type="html" xml:base="http://localhost:4000/chapter_1/2021/05/28/chtotakoesistema.html">&lt;p&gt;Понятие системы, так же как и понятие информации, относится к числу фундаментальных научных понятий. Так же как и для информации, для системы нет единственного общепринятого оп- ределения. В то же время это понятие часто используется нами. в бытовой речи, употребляется в научной терминологии. Вот ряд. примеров употребления понятия «система»: система образования, транспортная система, система связи, Солнечная система, нервная система, Периодическая система химических элементов, система счисления, операционная система, информационная система.&lt;/p&gt;
 
 &lt;p&gt;Обобщая все приведенные выше примеры, дадим следующее предварительное определение.&lt;/p&gt;
 
@@ -51,175 +96,144 @@
 
 &lt;p&gt;Всякая система обладает &lt;i&gt;свойством целостности&lt;/i&gt;, поскольку
 она существует в совокупности своих частей и выполняет свою
-отдельную функцию в среде своего существования.&lt;/p&gt;</content><author><name>Ruslan Kornev</name><email>ruskosha@gmail.com</email></author><category term="Chapter_1" /><summary type="html">Понятие системы, так же как и понятие информации, относится к числу фундаментальных научных понятий. Так же как и для информации, для системы нет единственного общепринятого оп- ределения. В то же время это понятие часто используется нами. в бытовой речи, употребляется в научной терминологии. Вот ряд. примеров употребления понятия «система»: система образования, транспортная система, система связи, Солнечная система, нервная система, Периодическая система химических элементов, система счисления, операционная система, информационная система.</summary></entry><entry><title type="html">My Example Post</title><link href="http://localhost:4000/2016/05/20/my-example-post.html" rel="alternate" type="text/html" title="My Example Post" /><published>2016-05-20T00:00:00+03:00</published><updated>2016-05-20T00:00:00+03:00</updated><id>http://localhost:4000/2016/05/20/my-example-post</id><content type="html" xml:base="http://localhost:4000/2016/05/20/my-example-post.html">&lt;p&gt;Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.&lt;/p&gt;
+отдельную функцию в среде своего существования.&lt;/p&gt;
 
-&lt;p&gt;No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.&lt;/p&gt;</content><author><name>Ruslan Kornev</name><email>ruskosha@gmail.com</email></author><summary type="html">Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</summary></entry><entry><title type="html">Some articles are just so long they deserve a really long title to see if things will break well</title><link href="http://localhost:4000/misc/2016/05/20/super-long-article.html" rel="alternate" type="text/html" title="Some articles are just so long they deserve a really long title to see if things will break well" /><published>2016-05-20T00:00:00+03:00</published><updated>2016-05-20T00:00:00+03:00</updated><id>http://localhost:4000/misc/2016/05/20/super-long-article</id><content type="html" xml:base="http://localhost:4000/misc/2016/05/20/super-long-article.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+&lt;p&gt;Системный анализ&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+&lt;p&gt;Исследование некоторой реальной системы состоит из двух эта-
+пов: анализа и синтеза.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;</content><author><name>Ruslan Kornev</name><email>ruskosha@gmail.com</email></author><category term="misc" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</summary></entry><entry><title type="html">This post demonstrates post content styles</title><link href="http://localhost:4000/junk/2016/05/20/this-post-demonstrates-post-content-styles.html" rel="alternate" type="text/html" title="This post demonstrates post content styles" /><published>2016-05-20T00:00:00+03:00</published><updated>2016-05-20T00:00:00+03:00</updated><id>http://localhost:4000/junk/2016/05/20/this-post-demonstrates-post-content-styles</id><content type="html" xml:base="http://localhost:4000/junk/2016/05/20/this-post-demonstrates-post-content-styles.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.&lt;/p&gt;
+&lt;p&gt;Анализ системы — это выделение ее частей с целью проясне-
+ния состава системы. В предыдущем разделе мы говорили, что
+каждая часть системы — это подсистема, и у этой подсистемы
+есть свои части. Однако невозможно раскладывать систему беско-
+нечно. На чем-то придется остановиться. Какие-то части принять
+за простые, далее неделимые элементы. Вопрос о том, на чем
+следует остановить «дробление» системы, зависит от цели иссле-
+дования. Целью исследования системы является получение ее
+модели — приближенного представления об устройстве и функ-
+ционировании системы. Полученная модель будет использоваться
+для прогнозирования поведения системы в некоторых условиях,
+для управления системой, для диагностики сбоев в функциони-
+ровании системы и пр.&lt;/p&gt;
 
-&lt;h2 id=&quot;some-great-heading-h2&quot;&gt;Some great heading (h2)&lt;/h2&gt;
+&lt;p&gt;Однако невозможно понять механизм функционирования сис-
+темы, выяснив только ее состав. Необходимо знать структуру
+связей между частями системы. Только в совокупности состава
+и структуры можно понять состояние и поведение системы. Поэ-
+тому анализ системы — это первый этап ее исследования. Второй
+этап называется синтезом. Слово «синтез» означает «соединение».
+Синтез — это мысленное или реальное соединение частей в еди-
+ное целое. В результате синтеза создается целостное представле-
+ние о системе, объясняется механизм системного эффекта.&lt;/p&gt;
 
-&lt;p&gt;Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.&lt;/p&gt;
+&lt;p&gt;‘Системным анализом называется исследование реальных объек-
+тов и явлений с точки зрения системного подхода, состоящее
+из этапов анализа и синтеза.&lt;/p&gt;
 
-&lt;p&gt;Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+&lt;p&gt;Всякое описание системы носит модельный характер, т. е.
+отражает ограниченное число ее свойств. Главный вопрос при
+построении модели системы: какие ее характеристики являют-
+ся существенными с точки зрения целей использования будущей
+модели.&lt;/p&gt;
 
-&lt;h2 id=&quot;another-great-heading-h2&quot;&gt;Another great heading (h2)&lt;/h2&gt;
+&lt;p&gt;‘Модель «черного ящика»&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.&lt;/p&gt;
+&lt;p&gt;В простейшем случае бывает достаточно иметь представление о
+взаимодействии системы с внешней средой, не вдаваясь в подроб-
+ности ее внутреннего устройства. Например, при использовании
+сложной бытовой техники вам совсем не обязательно знать ее
+устройство. Достаточно знать, как ею пользоваться, т. е. какие&lt;/p&gt;
 
-&lt;h3 id=&quot;some-great-subheading-h3&quot;&gt;Some great subheading (h3)&lt;/h3&gt;
+&lt;p&gt;Системный эффект. Система не является случайным набором
+частей. Ее состав подчиняется назначению, которое система име-
+ет в природе или в обществе. Искусственные системы человек
+создает с определенной целью. В связи с этим существует сле-
+дующее определение системы: система — это средство дости-
+жения цели. Вот примеры: транспортная система предназначена
+для перевозки людей и грузов, система здравоохранения — для
+лечения и укрепления здоровья людей, компьютер — для работы
+с информацией.&lt;/p&gt;
 
-&lt;p&gt;Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum.&lt;/p&gt;
+&lt;p&gt;В науке о системах — системологии — сформулирован закон,
+который называется принципом эмерджентности или законом
+системного эффекта. Звучит он так: целое больше суммы своих
+частей. Говоря другими словами: свойства системы не сводятся
+к совокупности свойств ее частей и не выводятся из них. Слово
+«эмерджентность» происходит от английского етегдепсе — вне-
+запное появление. Например, сложная система организма живот-
+ного или человека создает системный эффект, который называ-
+‘ется жизнью. Выход из строя какой-либо подсистемы организма
+(кровообращения, пищеварения и др.) приводит к утрате жизни.&lt;/p&gt;
 
-&lt;p&gt;Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.&lt;/p&gt;
+&lt;p&gt;Связи (отношения) в системе. Части системы всегда связаны
+между собой, находятся в определенных отношениях. Виды этих
+связей могут быть самыми разными. В естественных и техни-
+ческих системах они носят материальный характер. Например,
+планеты Солнечной системы связаны силами гравитации; детали
+автомобиля — болтами, сваркой, шестеренками; части энергети-
+ческой системы — линиями электропередач.&lt;/p&gt;
 
-&lt;h3 id=&quot;some-great-subheading-h3-1&quot;&gt;Some great subheading (h3)&lt;/h3&gt;
+&lt;p&gt;Отношения между частями социальных систем бывают различ-
+ными. Это могут быть отношения подчинения (начальник — под-
+чиненный, министерство — предприятие), отношения вхождения
+(университет — факультет — кафедра — преподаватель), отноше-
+ния родственных связей членов семьи. Решающее значение для
+функционирования таких систем играют информационные связи
+внутри системы, а также с внешней средой. Такие связи реали-
+зуются через прямое общение, переписку, технические средства
+связи, средства массовой информации. Человек является частью
+многих систем: семьи, класса, производственного коллектива, ко-
+манды, государства и др. Во всех этих системах он находится в
+состоянии информационного взаимодействия с другими людьми.&lt;/p&gt;
 
-&lt;p&gt;Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+&lt;p&gt;Большое значение информационные связи имеют для деятель-
+ности производственных коллективов. Если распоряжение руко-
+водителя не доходит до подчиненных или искажается в процессе
+передачи, то может быть нарушен производственный процесс в
+самыми серьезными последствиями, вилоть до катастрофы. Во время боевых действий в армии от работы информационной связи
+зависят жизни людей. Армия, лишенная связи, не может выпол-
+нять своего назначения — эффективно вести военные действия.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;This quote will &lt;em&gt;change&lt;/em&gt; your life. It will reveal the &lt;i&gt;secrets&lt;/i&gt; of the universe, and all the wonders of humanity. Don’t &lt;em&gt;misuse&lt;/em&gt; it.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Из приведенных примеров следует, что системный эффект
+обеспечивается не только наличием нужного состава частей сие-
+темы, но и существованием необходимых связей между ними.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.&lt;/p&gt;
+&lt;p&gt;Структурой системы называется совокупность связей,
+существующих между частями (элементами) системы. Нагляд-
+ным примером отображения структуры системы являются схе-
+мы олектрических цепей. Элементы электрического устройства
+соединяются между собой двумя способами: последовательно и
+параллельно. От способа соединения зависит свойство всей цепи.
+Например, если три проводника, имеющие сопротивления Ё1,
+Е2, ВЗ, соединить последовательно, то общее сопротивление цепи
+будет равно Е1 + Е2 + ЕЗ, а если параллельно — (В1-В?.НЗ)/
+(В1-Е2 + В1-ВЗ + Е2.ВЗ). Первое сопротивление больше второго.
+Поэтому, например, при пропускании электрического тока в пер-
+вой цепи будет выделяться больше тепла, чем во второй.&lt;/p&gt;
 
-&lt;h3 id=&quot;some-great-subheading-h3-2&quot;&gt;Some great subheading (h3)&lt;/h3&gt;
+&lt;p&gt;В науке существует много примеров, когда для понимания
+свойств каких-то систем требовалось понять их структуру. Напри-
+мер, открытие немецким химиком Кекуле структуры молекулы
+бензола — бензольного кольца — помогло понять химические
+свойства этого органического вещества. Свойства атома стали луч-
+ше понятны физикам после того, как Эрнест Резерфорд открыл
+планетарную структуру атома, а Нильс Бор сформулировал свои
+знаменитые постулаты.&lt;/p&gt;
 
-&lt;p&gt;Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.&lt;/p&gt;
+&lt;p&gt;Для любой социальной системы, объединенной информацион-
+ными связями, также характерна определенная структура. Эф-
+фективность функционирования системы существенно зависит от
+ее структуры. Структурная организация любой социальной сис-
+темы определяется законами, уставами, правилами, инструкци-
+ями. Структура государства описана в конституции, структура
+армии — в уставе.&lt;/p&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Hello, World!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Обобщая все сказанное о системах, сформулируем следующее
+определение.&lt;/p&gt;
 
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;h4 id=&quot;you-might-want-a-sub-subheading-h4&quot;&gt;You might want a sub-subheading (h4)&lt;/h4&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;h4 id=&quot;but-its-probably-overkill-h4&quot;&gt;But it’s probably overkill (h4)&lt;/h4&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;h5 id=&quot;could-be-a-smaller-sub-heading-pacman-h5&quot;&gt;Could be a smaller sub-heading, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pacman&lt;/code&gt; (h5)&lt;/h5&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;h6 id=&quot;small-yet-significant-sub-heading--h6&quot;&gt;Small yet significant sub-heading  (h6)&lt;/h6&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;h3 id=&quot;oh-hai-an-unordered-list&quot;&gt;Oh hai, an unordered list!!&lt;/h3&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;First item, yo&lt;/li&gt;
-  &lt;li&gt;Second item, dawg&lt;/li&gt;
-  &lt;li&gt;Third item, what what?!&lt;/li&gt;
-  &lt;li&gt;Fourth item, fo sheezy my neezy&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;oh-hai-an-ordered-list&quot;&gt;Oh hai, an ordered list!!&lt;/h3&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;First item, yo&lt;/li&gt;
-  &lt;li&gt;Second item, dawg&lt;/li&gt;
-  &lt;li&gt;Third item, what what?!&lt;/li&gt;
-  &lt;li&gt;Fourth item, fo sheezy my neezy&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;headings-are-cool-h2&quot;&gt;Headings are cool! (h2)&lt;/h2&gt;
-
-&lt;p&gt;Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;p&gt;Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;p&gt;Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.&lt;/p&gt;
-
-&lt;h3 id=&quot;tables&quot;&gt;Tables&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Title 1&lt;/th&gt;
-      &lt;th&gt;Title 2&lt;/th&gt;
-      &lt;th&gt;Title 3&lt;/th&gt;
-      &lt;th&gt;Title 4&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem&lt;/td&gt;
-      &lt;td&gt;lorem ipsum&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Title 1&lt;/th&gt;
-      &lt;th&gt;Title 2&lt;/th&gt;
-      &lt;th&gt;Title 3&lt;/th&gt;
-      &lt;th&gt;Title 4&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem&lt;/td&gt;
-      &lt;td&gt;lorem ipsum&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet consectetur&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor&lt;/td&gt;
-      &lt;td&gt;lorem ipsum&lt;/td&gt;
-      &lt;td&gt;lorem&lt;/td&gt;
-      &lt;td&gt;lorem ipsum&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet consectetur&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>[&quot;Bart Simpson&quot;, &quot;Nelson Mandela Muntz&quot;]</name></author><category term="junk" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</summary></entry><entry><title type="html">Welcome To Jekyll</title><link href="http://localhost:4000/2016/05/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome To Jekyll" /><published>2016-05-20T00:00:00+03:00</published><updated>2016-05-20T00:00:00+03:00</updated><id>http://localhost:4000/2016/05/20/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/2016/05/20/welcome-to-jekyll.html">&lt;p&gt;Понятие системы, так же как и понятие информации, относится к числу фундаментальных научных понятий. Так же как и для информации, для системы нет единственного общепринятого оп- ределения. В то же время это понятие часто используется нами. в бытовой речи, употребляется в научной терминологии. Вот ряд. примеров употребления понятия «система»: система образования, транспортная система, система связи, Солнечная система, нервная система, Периодическая система химических элементов, система счисления, операционная система, информационная система. ‘Обобщая все приведенные выше примеры, дадим следующее предварительное определение. Система — это совокупность элементов (материальных или идеальных), обладающая определенной целостностью. Состав системы — это совокупность входящих в нее частей (элементов). Рассматривая компьютер как систему, можно вы- делить следующие составляющие его части: процессор, память, устройства ввода, устройства вывода. Но, в свою очередь, про’ цессор тоже является системой, в состав которой входят: ариф- метико-логическое устройство (АЛУ), устройство управления, регистры, кэш-память. Процессор входит в состав компьютера, поэтому, подчеркивая его собственную системность, процессор, следует назвать подсистемой компьютера. Подсистема — это система, входящая в состав другой, более крупной системы. В свою очередь, АЛУ процессора тоже является системой. В его состав входят сумматоры, полусумматоры и другие элементы. Следовательно, АЛУ — это подсистема процессора. Таким путем&lt;/p&gt;</content><author><name>Ruslan Kornev</name><email>ruskosha@gmail.com</email></author><summary type="html">Понятие системы, так же как и понятие информации, относится к числу фундаментальных научных понятий. Так же как и для информации, для системы нет единственного общепринятого оп- ределения. В то же время это понятие часто используется нами. в бытовой речи, употребляется в научной терминологии. Вот ряд. примеров употребления понятия «система»: система образования, транспортная система, система связи, Солнечная система, нервная система, Периодическая система химических элементов, система счисления, операционная система, информационная система. ‘Обобщая все приведенные выше примеры, дадим следующее предварительное определение. Система — это совокупность элементов (материальных или идеальных), обладающая определенной целостностью. Состав системы — это совокупность входящих в нее частей (элементов). Рассматривая компьютер как систему, можно вы- делить следующие составляющие его части: процессор, память, устройства ввода, устройства вывода. Но, в свою очередь, про’ цессор тоже является системой, в состав которой входят: ариф- метико-логическое устройство (АЛУ), устройство управления, регистры, кэш-память. Процессор входит в состав компьютера, поэтому, подчеркивая его собственную системность, процессор, следует назвать подсистемой компьютера. Подсистема — это система, входящая в состав другой, более крупной системы. В свою очередь, АЛУ процессора тоже является системой. В его состав входят сумматоры, полусумматоры и другие элементы. Следовательно, АЛУ — это подсистема процессора. Таким путем</summary></entry><entry><title type="html">Some articles are just so short that we have to make the footer stick</title><link href="http://localhost:4000/misc/2016/05/19/super-short-article.html" rel="alternate" type="text/html" title="Some articles are just so short that we have to make the footer stick" /><published>2016-05-19T00:00:00+03:00</published><updated>2016-05-19T00:00:00+03:00</updated><id>http://localhost:4000/misc/2016/05/19/super-short-article</id><content type="html" xml:base="http://localhost:4000/misc/2016/05/19/super-short-article.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</content><author><name>Ruslan Kornev</name><email>ruskosha@gmail.com</email></author><category term="misc" /><summary type="html">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary></entry></feed>
+&lt;p&gt;Система — целостная, взаимосвязанная совокупность частей,
+существующая в некоторой среде и обладающая определенным
+назначением, подчиненная некоторой цели. Система облада-
+ет внутренней структурой, относительной обособленностью от
+окружающей среды, наличием связей со средой.&lt;/p&gt;</content><author><name>Ruslan Kornev</name><email>ruskosha@gmail.com</email></author><category term="Chapter_1" /><summary type="html">Понятие системы, так же как и понятие информации, относится к числу фундаментальных научных понятий. Так же как и для информации, для системы нет единственного общепринятого оп- ределения. В то же время это понятие часто используется нами. в бытовой речи, употребляется в научной терминологии. Вот ряд. примеров употребления понятия «система»: система образования, транспортная система, система связи, Солнечная система, нервная система, Периодическая система химических элементов, система счисления, операционная система, информационная система.</summary></entry></feed>
