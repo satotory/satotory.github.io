@@ -1,22 +1,5 @@
 ---
 layout: post
+
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Понятие системы, так же как и понятие информации, относится к числу фундаментальных научных понятий. Так же как и для информации, для системы нет единственного общепринятого оп- ределения. В то же время это понятие часто используется нами. в бытовой речи, употребляется в научной терминологии. Вот ряд. примеров употребления понятия «система»: система образования, транспортная система, система связи, Солнечная система, нервная система, Периодическая система химических элементов, система счисления, операционная система, информационная система. 'Обобщая все приведенные выше примеры, дадим следующее предварительное определение. Система — это совокупность элементов (материальных или идеальных), обладающая определенной целостностью. Состав системы — это совокупность входящих в нее частей (элементов). Рассматривая компьютер как систему, можно вы- делить следующие составляющие его части: процессор, память, устройства ввода, устройства вывода. Но, в свою очередь, про’ цессор тоже является системой, в состав которой входят: ариф- метико-логическое устройство (АЛУ), устройство управления, регистры, кэш-память. Процессор входит в состав компьютера, поэтому, подчеркивая его собственную системность, процессор, следует назвать подсистемой компьютера. Подсистема — это система, входящая в состав другой, более крупной системы. В свою очередь, АЛУ процессора тоже является системой. В его состав входят сумматоры, полусумматоры и другие элементы. Следовательно, АЛУ — это подсистема процессора. Таким путем

@@ -1,2 +1,45 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.post-list_my { margin-left: 0; list-style: none; counter-reset: zxc; }
+.post-list_my:before { counter-increment: zxc; content: "Глава " counter(zxc) ". "}
+
+.post-meta_my { font-size: 14px; color: #828282; list-style: none; counter-reset: zxc2;}
+.post-meta_my:before {counter-increment: zxc2; content: counter(zxc) "." counter(zxc2) ". ";}
+
+.post-link_my { display: block; font-size: 1.5rem; counter-reset: zxc3; }
+.post-link_my:before {counter-increment: zxc3; content: counter(zxc) "." counter(zxc2) "." counter(zxc3) ". ";}
+
+.post-meta_post {
+    font-size: 18px; 
+    color: #181717;
+    text-align: left;
+    border-bottom: 1px solid #181717 ; 
+}
+
+.post-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+  .PageNavigation {
+    font-size: 14px;
+    display: block;
+    width: auto;
+    overflow: hidden;
+  }
+  
+  .PageNavigation a {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 1em 0;
+  }
+  
+  .PageNavigation .next {
+    text-align: right;
+  }
