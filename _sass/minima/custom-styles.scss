@@ -1,5 +1,28 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+@font-face {
+   font-family: Russo One;
+   src: url(/assets/fonts/RussoOne-Regular.ttf);
+}
+
+.site-title {
+   //position: absolute;
+   width: 746px;
+   height: 43px;
+   left: 580px;
+   top: 5px;
+
+   font-family: Russo One;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 36px;
+   line-height: 43px;
+   letter-spacing: 0.355em;
+   
+   color: #7B6A97;
+   
+   text-align: center;
+}
 
 body, html
 {
@@ -93,18 +116,29 @@ body, html
    background: #B3B3B3;
 }
 
-
-
 .chapter-title { 
-    padding: 8px;
-    border: 2px #7a48bb solid;
-    border-radius: 12px;
-    text-align: center;
-    border-bottom: 1px #828282 solid;
-    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 24px;
+   //position: absolute;
+   width: 752px;
+   height: 109px;
+
+
+   background: #7B6A97;
+   border-radius: 10px;
+ 
+
+
+
+   font-family: Russo One;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 36px;
+   line-height: 43px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+
+   color: #E7DFF5;
+
 }
 
 .post-list_title { margin-left: 0; list-style: none; counter-reset: zxc;     

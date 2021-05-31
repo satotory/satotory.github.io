@@ -19,6 +19,8 @@
 <link rel="stylesheet" href="/assets/css/style.css">
 <link rel="stylesheet" href="_sass/minima/custom-variables.scss">
 <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Учебник по иформатике" />
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body><header class="site-header">
 
@@ -31,43 +33,101 @@
             </svg>
           </span>
         </label>
-
-        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
-      </nav></div>
+      </nav>
+        <!-- 
+          <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </div>
+         -->
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <div class="home">
-          <h3 class="chapter-title">Глава 1. Информационные системы</h3>
-          <div class="post-list_title">Основы системного подхода</div>
-          <ul class="post-meta_my">
+          <div id="showdiv" class="chapter-title">Глава 1. Информационные системы</div> 
+            <ul id="showdivblock" class="post-meta_my" style="display: none">
+              <li>
+                <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Что такое система?</a></div>
+              </li>
+              <li>
+                <div><a class="post-link_my" href="/chapter_1/2021/05/28/modelysistem.html">Модели систем</a></div>
+              </li>
+              <li>
+                <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoeinf.html">Что такое информационная система</a></div>
+              </li>
+              <li>
+                <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Инфологическая модель предметной области</a></div>
+              </li>
+              <li>
+                <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Реляционные базы данных и СУБД</a></div>
+              </li>
+              <li>
+                <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Проектирование реляционной модели данных</a></div>
+              </li>
+              <li>
+                <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Создание базы данных</a></div>
+              </li>
+              <li>
+                <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Простые запросы к базе данных</a></div>
+              </li>
+              <li>
+                <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Сложные запросы к базе данных</a></div>
+              </li>
+            </ul>
+                <script>
+                  $('#showdiv').on('click', () => {
+                  //id блока showdivblock
+                  $('#showdivblock').stop().fadeToggle();
+                  return false;
+                  });
+                </script>
+        <div id="showdiv2" class="chapter-title">Глава 2. Методы программирования</div>
+          <ul id="showdivblock2" class="post-meta_my" style="display:none">
             <li>
-          <a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">
-            Что такое система?
-          </a>
-          <a class="post-link_my" href="/chapter_1/2021/05/28/modelysistem.html">
-            Модели систем
-            <a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoeinf.html">
-            Что такое информационная система
-          </a>
-          </a>
-        </li>
-        <li>
-        
-          
-        </li>
-        <li>
-        
-          
-        </li>
-        <li>
-        
-          <a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">
-            Что такое система?
-          </a>
-        </li>
-        </ul>
-        
+              <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Паскаль - язык структурного программирования</a></div>
+            </li>
+            <li>
+              <div><a class="post-link_my" href="/chapter_1/2021/05/28/modelysistem.html">Элементы языка и типы данных</a></div>
+            </li>
+            <li>
+              <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoeinf.html">Операции, функции, выражения</a></div>
+            </li>
+            <li>
+              <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Структуры алгоритмов и программ</a></div>
+            </li>
+            <li>
+              <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Программирование ветвлений</a></div>
+            </li>
+            <li>
+              <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Программирование циклов</a></div>
+            </li>
+            <li>
+              <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Вспомогательные алгоритмы и подпрограммы</a></div>
+            </li>
+            <li>
+              <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Массивы</a></div>
+            </li>
+            <li>
+              <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Типовые задачи обработки массивов</a></div>
+            </li>
+            <li>
+              <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Метод последовательной детализации</a></div>
+            </li>
+            <li>
+              <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Символьный тип данных</a></div>
+            </li>
+            <li>
+              <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Строки символов</a></div>
+            </li>
+            <li>
+              <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Комбинированный тип данных</a></div>
+            </li>
+          </ul>
+          <script>
+            $('#showdiv2').on('click', () => {
+            //id блока showdivblock
+            $('#showdivblock2').stop().fadeToggle();
+            return false;
+            });
+          </script>
         <!--
         <li>
         <span class="post-meta">May 20, 2016</span>
@@ -97,7 +157,6 @@
       
 
     </div>
-
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
