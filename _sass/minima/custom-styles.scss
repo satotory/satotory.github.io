@@ -4,22 +4,32 @@
    font-family: Russo One;
    src: url(/assets/fonts/RussoOne-Regular.ttf);
 }
+@font-face {
+   font-family: Ubuntu bold;
+   src: url(/assets/fonts/Ubuntu-Bold.ttf);
+}
+@font-face {
+   font-family: PressStart2P;
+   src: url(/assets/fonts/PressStart2P-Regular.ttf);
+}
+@font-face {
+   font-family: TrainOne;
+   src: url(/assets/fonts/TrainOne-Regular.ttf);
+}
 
 .site-title {
    //position: absolute;
    width: 746px;
    height: 43px;
-   left: 580px;
-   top: 5px;
-
-   font-family: Russo One;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 36px;
-   line-height: 43px;
-   letter-spacing: 0.355em;
    
-   text-align: center;
+
+   font-family: Ubuntu bold;
+   
+   font-size: 36px;
+   //line-height: 43px;
+   letter-spacing: 0;
+   
+   text-align: left;
 }
 .site-title, .site-title:visited { color: #7B6A97; }
 
@@ -130,7 +140,7 @@ body, html
 
 
 
-   font-family: Russo One;
+   font-family: Ubuntu bold;
    font-style: normal;
    font-weight: normal;
    font-size: 36px;
@@ -190,7 +200,7 @@ li:before{
    content: "";
 }
 .post-link_my {
-   font-family: Russo One;
+   font-family: Ubuntu bold;
     //padding: 10px;
     width: 100%;
     //position: absolute;
