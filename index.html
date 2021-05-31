@@ -42,7 +42,9 @@
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <div class="home">
-          <div id="showdiv" class="chapter-title">Глава 1. Информационные системы</div> 
+          <div class="my-list">
+          <div id="showdiv" class="chapter-title">Глава 1. Информационные системы</div>
+            <div class="my-list-item">
             <ul id="showdivblock" class="post-meta_my" style="display: none">
               <li>
                 <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Что такое система?</a></div>
@@ -71,15 +73,17 @@
               <li>
                 <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Сложные запросы к базе данных</a></div>
               </li>
-            </ul>
+            </ul></div> 
                 <script>
                   $('#showdiv').on('click', () => {
                   //id блока showdivblock
-                  $('#showdivblock').stop().fadeToggle();
+                  $('#showdivblock').stop().fadeToggle(1000);
+                  $('#showdiv2').animate({bottom: '250px'}, 5000)
                   return false;
                   });
                 </script>
         <div id="showdiv2" class="chapter-title">Глава 2. Методы программирования</div>
+          <div class="my-list-item">
           <ul id="showdivblock2" class="post-meta_my" style="display:none">
             <li>
               <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Паскаль - язык структурного программирования</a></div>
@@ -120,14 +124,15 @@
             <li>
               <div><a class="post-link_my" href="/chapter_1/2021/05/28/chtotakoesistema.html">Комбинированный тип данных</a></div>
             </li>
-          </ul>
+          </ul></div>
           <script>
             $('#showdiv2').on('click', () => {
             //id блока showdivblock
-            $('#showdivblock2').stop().fadeToggle();
+            $('#showdivblock2').stop().fadeToggle(1000);
             return false;
             });
           </script>
+          </div>
         <!--
         <li>
         <span class="post-meta">May 20, 2016</span>
