@@ -234,6 +234,11 @@ table td { border: 1px solid #e8e8e8; }
 @font-face { font-family: Ubuntu regular; src: url(/assets/fonts/Ubuntu-Regular.ttf); }
 .site-title { font-family: Ubuntu bold; font-size: 36px; letter-spacing: 0; }
 
+@media (max-width: 700px) { .chapter-title { max-width: 330px; max-height: 100%; padding: 10px; }
+  .nav-trigger { display: none; }
+  .site-title { font-size: 20px; }
+  .pdf { font-size: 20px; }
+  .post-meta_my { columns: 1 !important; } }
 .site-title, .site-title:visited { -webkit-text-stroke: #553925 1px; color: #f9f9f9; }
 
 .site-title:hover { text-decoration: none; color: #E3792C; }
