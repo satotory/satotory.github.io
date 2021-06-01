@@ -242,7 +242,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .pdf:hover { text-decoration: none; color: #E3792C; }
 
-main.page-content { font-family: Ubuntu regular; }
+main.page-content { font-family: Ubuntu regular; background: linear-gradient(45deg, rgba(227, 121, 44, 0) 48%, rgba(227, 121, 44, 0.2) 50%, rgba(227, 121, 44, 0) 52%), linear-gradient(-45deg, rgba(227, 121, 44, 0) 48%, rgba(227, 121, 44, 0.2) 50%, rgba(227, 121, 44, 0) 52%); background-size: 1em 1em; }
 
 body, html { width: 100%; height: 100%; margin: 0; padding: 0; font-size: 16px; font-family: helvetica, arial; background: #f9f9f9; color: #111; }
 
@@ -270,7 +270,7 @@ body, html { width: 100%; height: 100%; margin: 0; padding: 0; font-size: 16px; 
 
 .button_passive { background: #B3B3B3; }
 
-.chapter-title { box-shadow: 0px 4px 11px -5px rgba(0, 0, 0, 0.3); margin-bottom: 10px; width: 752px; height: 109px; border-radius: 10px; font-family: Ubuntu bold; font-style: normal; font-weight: normal; font-size: 36px; line-height: 43px; display: flex; align-items: center; text-align: center; color: #E3792C; justify-content: center; align-items: center; }
+.chapter-title { background: #f9f9f9; box-shadow: 0px 4px 11px -5px rgba(0, 0, 0, 0.3); margin-bottom: 10px; width: 752px; height: 109px; cursor: pointer; border-radius: 10px; font-family: Ubuntu bold; font-style: normal; font-weight: normal; font-size: 36px; line-height: 43px; display: flex; align-items: center; text-align: center; color: #E3792C; justify-content: center; align-items: center; }
 
 .my-list { counter-reset: a; }
 
