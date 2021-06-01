@@ -17,6 +17,11 @@
    src: url(/assets/fonts/TrainOne-Regular.ttf);
 }
 
+@font-face {
+   font-family: Ubuntu regular;
+   src: url(/assets/fonts/Ubuntu-Regular.ttf);
+}
+
 .site-title {
    //position: absolute;
    width: 746px;
@@ -31,8 +36,11 @@
    
    text-align: left;
 }
-.site-title, .site-title:visited { color: #7B6A97; }
+.site-title, .site-title:visited { color: #E3792C; }
 
+main.page-content {
+   font-family: Ubuntu regular;
+}
 body, html
 {
    width: 100%;
@@ -100,7 +108,7 @@ body, html
 {
    border: 0;
    border-radius: 10px;
-   background: #6477EB;
+   background: #E3792C;
    color: #fff;
    padding: 10px 25px;
    width: 70%;
@@ -149,7 +157,7 @@ body, html
    align-items: center;
    text-align: center;
 
-   color: #7B6A97;
+   color: #E3792C;
    //color: #E7DFF5;
    justify-content: center;
    align-items: center;
@@ -177,15 +185,19 @@ body, html
 }
 
 a {
-    color: #413E46 ;
+    color: #2A6679  ;
 }
 
 a:visited{
-    color: #413E46 ;
+    color: #553925 ;
+}
+
+a:hover {
+   color: #E3792C;
 }
 
 a:active {
-    color: #7a48bb ;
+    color: #E3792C ;
 }
 
 .post-meta_my{
@@ -245,8 +257,8 @@ li:before{
   
   .PageNavigation .next {
     text-align: right;
-    color: #7a48bb;
+    color: #E3792C;
   }
   .PageNavigation .prev {
-    color: #7a48bb;
+    color: #E3792C;
   }
