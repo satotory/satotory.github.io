@@ -23,9 +23,10 @@
 }
 
 .site-title {
-   //position: absolute;
-   width: 746px;
-   height: 43px;
+   //position: absolute; 
+
+   //width: 746px;
+   //height: 43px;
    
 
    font-family: Ubuntu bold;
@@ -34,13 +35,38 @@
    //line-height: 43px;
    letter-spacing: 0;
    
-   text-align: left;
+   //text-align: left;
 }
-.site-title, .site-title:visited { color: #E3792C; }
 
+.site-title, .site-title:visited {     
+   -webkit-text-stroke: #E3792C 1px;
+   color: #f9f9f9;
+}
+   
+.site-title:hover {
+   text-decoration: none;      
+   color: #E3792C;
+}
+
+.pdf, .pdf:visited {
+   -webkit-text-stroke: #E3792C 1px;
+   color: #f9f9f9;
+   text-align: right;
+   font-family: Ubuntu bold;
+   
+   font-size: 36px;
+   text-align: right;
+}
+
+.pdf:hover {
+   
+   text-decoration: none;      
+   color: #E3792C;
+}
 main.page-content {
    font-family: Ubuntu regular;
 }
+
 body, html
 {
    width: 100%;
@@ -185,7 +211,7 @@ body, html
 }
 
 a {
-    color: #2A6679  ;
+    color: #E3792C  ;
 }
 
 a:visited{

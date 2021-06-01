@@ -34,10 +34,10 @@
           </span>
         </label>
       </nav>
-        <!-- 
-          <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+        
+          <div class="trigger"><a class="pdf" href="/docs/PDF.pdf">PDF</a></div>
       </div>
-         -->
+         
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
@@ -77,8 +77,9 @@
                 <script>
                   $('#showdiv').on('click', () => {
                   //id блока showdivblock
-                  $('#showdivblock').stop().fadeToggle(1000);
-                  $('#showdiv2').animate({bottom: '250px'}, 5000)
+                  $('#showdivblock').stop().slideToggle(700);
+                  
+                 // $('#showdiv2').animate({bottom: '250px'}, 5000)
                   return false;
                   });
                 </script>
@@ -128,7 +129,7 @@
           <script>
             $('#showdiv2').on('click', () => {
             //id блока showdivblock
-            $('#showdivblock2').stop().fadeToggle(1000);
+            $('#showdivblock2').stop().slideToggle(1200);
             return false;
             });
           </script>
