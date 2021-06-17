@@ -9,6 +9,11 @@
    src: url(/assets/fonts/Ubuntu-Bold.ttf);
 }
 @font-face {
+   font-family: Montserrat;
+   src: url(/assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
    font-family: PressStart2P;
    src: url(/assets/fonts/PressStart2P-Regular.ttf);
 }
@@ -22,16 +27,88 @@
    src: url(/assets/fonts/Ubuntu-Regular.ttf);
 }
 
+.footer-col-wrapper {
+   font-family: Montserrat;
+}
+
+.post-content {
+   width: 1120px;
+}
+
+blockquote {
+   color: #f9f9f9;
+}
+
+.site-footer {
+   padding: 0;
+   padding-top: 30px;
+   background: #3B5879;
+   border-top: 1px solid #000000;
+}
+.footer-col-wrapper, .social-links {
+   /* position: absolute; */
+   width: 1120px;
+   /* height: 204px; */
+   /* left: 397px; */
+   /* top: 883px; */
+   font-size: 18px;
+   color: #000000;
+}
+.site-header {
+   background: #3B5879;
+   border: 1px solid #000000;
+   box-sizing: border-box;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   /* border-top: 5px solid #424242; */
+   /* border-bottom: 1px solid #e8e8e8; */
+   min-height: 62px;
+   /* line-height: 54px; */
+   position: relative;
+}
+.elipse {
+   position: absolute;
+   left: 21.61%;
+   right: 77.19%;
+   top: 7.87%;
+   /* bottom: 90%; */
+   background: #55A395;
+   border: 1px solid #000000;
+   box-sizing: border-box;
+   width: 2em;
+   margin: 1em auto;
+   border-radius: 50%;
+   
+
+}
+   .elipse::before {
+   content: "";
+   display: inline-block;
+   vertical-align: middle;
+   padding-top: 100%;
+   }
+
 .site-title {
    //position: absolute; 
 
    //width: 746px;
    //height: 43px;
-   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+   position: absolute;
+   width: 257px;
+   height: 43px;
+   left: 693px;
+   top: 8px;
 
-   font-family: Ubuntu bold;
-   
-   font-size: 36px;
+   background: #55A395;
+   border: 1px solid #000000;
+   box-sizing: border-box;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 4px;
+   font-family: Montserrat;
+   font-size: 18px;
    //line-height: 43px;
    letter-spacing: 0;
    
@@ -47,38 +124,51 @@
  }
 
 .site-title, .site-title:visited {     
-   -webkit-text-stroke: #553925 1px;
-   color: #f9f9f9;
+   //-webkit-text-stroke: #000000 1px;
+   color: #000000;
 }
    
 .site-title:hover {
    text-decoration: none;      
-   color: #E3792C;
+   color: #f9f9f9;
 }
 
 .pdf, .pdf:visited {
-   -webkit-text-stroke: #E3792C 1px;
-   color: #f9f9f9;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+   position: absolute;
+   width: 257px;
+   height: 43px;
+   left: 970px;
+   top: 8px;
+
+   background: #3B5879;
+   border: 1px solid #000000;
+   box-sizing: border-box;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 4px;
+   //-webkit-text-stroke: #E3792C 1px;
+   color: #000000;
    text-align: right;
-   font-family: Ubuntu bold;
+   font-family: Montserrat;
    
-   font-size: 36px;
-   text-align: right;
+   font-size: 18px;
 }
 
 .pdf:hover {
    
-   text-decoration: none;      
-   color: #E3792C;
+  // text-decoration: none;      
+  // color: #E3792C;
 }
+
+
 main.page-content {
-   font-family: Ubuntu regular;
-   background: linear-gradient(
-45deg
-,rgba(227, 121, 44, 0) 48%,rgba(227, 121, 44, 0.2) 50%,rgba(227, 121, 44, 0) 52%),linear-gradient(
--45deg
-,rgba(227, 121, 44, 0) 48%,rgba(227, 121, 44, 0.2) 50%,rgba(227, 121, 44, 0) 52%);
-    background-size: 1em 1em;
+   font-family: Montserrat;
+   //background: linear-gradient(45deg,rgba(227, 121, 44, 0) 48%,rgba(227, 121, 44, 0.2) 50%,rgba(227, 121, 44, 0) 52%),linear-gradient(-45deg,rgba(227, 121, 44, 0) 48%,rgba(227, 121, 44, 0.2) 50%,rgba(227, 121, 44, 0) 52%);
+   // background-size: 1em 1em;
+   background: #698CB6;;
 }
 
 body, html
@@ -91,7 +181,7 @@ body, html
    font-size: 16px;
    font-family: helvetica, arial;
    background: #f9f9f9;
-   color: #111;
+   color: #f9f9f9;
 }
  
 .wrapper
@@ -149,7 +239,7 @@ body, html
 {
    border: 0;
    border-radius: 10px;
-   background: #E3792C;
+   background: #3B5879;
    color: #fff;
    padding: 10px 25px;
    width: 70%;
@@ -171,39 +261,42 @@ body, html
  
 .button_passive
 {
-   background: #B3B3B3;
+   background: #3B5879;
 }
 
 .chapter-title:hover {
-   background: #E3792C;
+   background: #3B5879;
    color: #f9f9f9;
 }
 
 .chapter-title { 
-   background: #f9f9f9;
-   box-shadow: 0px 4px 11px -5px rgba($color: #000000, $alpha: 0.3);
-   margin-bottom: 10px;
+   //box-shadow: 0px 4px 11px -5px rgba($color: #000000, $alpha: 0.3);
+   //margin-bottom: 10px;
    //position: absolute;
-   width: 752px;
-   height: 109px;
+   //width: 752px;
+   //height: 109px;
+   margin-bottom: 10px;
    cursor: pointer;
+   width: 1120px;
+   height: 52px;
+   left: 397px;
+   top: 330px;
 
+   background: #698CB6;
+   border: 1px solid #000000;
+   box-sizing: border-box;
+   box-shadow: 3px 4px 4px rgba(53, 69, 88, 0.65);
+   border-radius: 4px;
    //background: #7B6A97;
-   border-radius: 10px;
- 
-
-
-
-   font-family: Ubuntu bold;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 36px;
-   line-height: 43px;
+   //border-radius: 10px;
+   font-family: Montserrat;
+   font-size: 24px;
+   line-height: 29px;
    display: flex;
    align-items: center;
    text-align: center;
-
-   color: #E3792C;
+   text-shadow: 3px 4px 4px rgba(53, 69, 88, 0.65);
+   color: #000000;
    //color: #E7DFF5;
    justify-content: center;
    align-items: center;
@@ -227,24 +320,24 @@ body, html
     margin-bottom: 24px;
     list-style-type: none;
     column-gap: 10px;
-    columns: 2;
+    columns: 1;
 }
 
 a {
-    color: #553925  ;
+    color: #FFFFFF  ;
 }
 
 a:visited{
-    color: #553925 ;
+    color: #FFFFFF ;
 }
 
 a:hover {
-   color: #E3792C;
+   color: #000000;
    text-decoration: none;
 }
 
 a:active {
-    color: #E3792C ;
+    color: #000000 ;
 }
 
 .post-meta_my{
@@ -259,12 +352,13 @@ li:before{
    content: "";
 }
 .post-link_my {
-   font-family: Ubuntu bold;
+   text-shadow: 3px 4px 4px rgba(53, 69, 88, 0.65);
+   font-family: Montserrat;
     //padding: 10px;
     width: 100%;
     //position: absolute;
     //display: block; 
-    font-size: 24px; //counter-reset: zxc2;
+    font-size: 18px; //counter-reset: zxc2;
 }
 //.post-link_my:before {counter-increment: zxc2; content: counter(zxc) "." counter(zxc2) ". ";;}
 .post-link_my:before{
@@ -304,8 +398,8 @@ li:before{
   
   .PageNavigation .next {
     text-align: right;
-    color: #E3792C;
+    color: #000000;
   }
   .PageNavigation .prev {
-    color: #E3792C;
+    color: #000000;
   }

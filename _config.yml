@@ -1,9 +1,10 @@
-title: Учебник по иформатике
+title: Теория
+pdf: Практика
 author:
   name: Ruslan Kornev
   email: ruskosha@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Этот учебник предназначен для изучения курса «Информатика» в 11 классе на углубленном уровне. Авторы курса желают вам успеха в освоении непростого, но очень интересного и актуального учебного предмета!
+  Данный учебник является частью учебно-метолического комплекта для всех специальностей укрупненной группы «Информатика и вычислительная техника».
 
 show_excerpts: false # set to true to show excerpts on the homepage
 

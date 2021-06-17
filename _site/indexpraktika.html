@@ -24,7 +24,7 @@
 </head>
 <body>
   <header class="site-header">
-  <a class="site-title" rel="author" href="/">Теория</a>
+  <a class="site-title" rel="author" href="/" style="background: #3B5879">Теория</a>
     <!--<nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -35,9 +35,8 @@
           </span>
         </label>
       </nav> -->
-          <a id="pdf1" class="pdf" href="/indexpraktika.html">Практика</a>
-          
-         
+          <a class="pdf" href="/indexpraktika.html" style="background: #55A395">Практика</a>
+
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
@@ -66,6 +65,7 @@
                   $('#showdiv').on('click', () => {
                   //id блока showdivblock
                   $('#showdivblock').stop().slideToggle(700);
+                  $('#elipse1').animate({background: black}, 700)
                  // $('#showdiv2').animate({bottom: '250px'}, 5000)
                   return false;
                   });
