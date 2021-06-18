@@ -237,7 +237,9 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-content { width: 1120px; }
 
-blockquote { color: #f9f9f9; }
+code { font-family: Montserrat; background-color: #55A395; font-size: 16px; }
+
+blockquote { border-left: 4px solid #3B5879; color: #f9f9f9; }
 
 .site-footer { padding: 0; padding-top: 30px; background: #3B5879; border-top: 1px solid #000000; }
 
@@ -318,7 +320,7 @@ li:before { content: ""; }
 
 .post-link_my:before { content: counter(a) "." counter(b) " "; }
 
-.post-meta_post { font-size: 18px; color: #181717; text-align: left; border-bottom: 1px solid #181717; }
+.post-meta_post { font-size: 18px; color: #181717; text-align: left; border-bottom: 1px solid #3B5879; }
 
 .post-title { font-size: 30px; text-align: center; }
 
