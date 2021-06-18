@@ -233,6 +233,12 @@ table td { border: 1px solid #e8e8e8; }
 @font-face { font-family: PressStart2P; src: url(/assets/fonts/PressStart2P-Regular.ttf); }
 @font-face { font-family: TrainOne; src: url(/assets/fonts/TrainOne-Regular.ttf); }
 @font-face { font-family: Ubuntu regular; src: url(/assets/fonts/Ubuntu-Regular.ttf); }
+main#praktika-main { background: #3B5879; }
+
+a#praktika-title { background: #3B5879; color: #f9f9f9; }
+
+a#praktika-title:hover { background: #698CB6; color: #000000; }
+
 .footer-col-wrapper { font-family: Montserrat; }
 
 .post-content { width: 1120px; }

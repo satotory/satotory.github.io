@@ -143,26 +143,26 @@ const questions =
 [
 	new Question("Что такое жесткий диск?", 
 	[
-		new Answer("2", 0),
-		new Answer("3", 0),
-		new Answer("4", 1),
-		new Answer("0", 0)
+		new Answer("Подушка", 0),
+		new Answer("Устройство ввода", 0),
+		new Answer("Запоминающее устройство", 1),
+		new Answer("Колесо", 0)
 	]),
 
 	new Question("Что такое логический диск?", 
 	[
-		new Answer("2", 0),
-		new Answer("3", 0),
-		new Answer("4", 1),
-		new Answer("0", 0)
+		new Answer("Запоминающее устройство", 0),
+		new Answer("Оперативная память", 0),
+		new Answer("Часть долговременной памяти компьютера", 1),
+		new Answer("Устройство ввода", 0)
 	]),
 
 	new Question("Для чего предназначен CD – дисковод?", 
 	[
-		new Answer("0", 0),
-		new Answer("1", 1),
-		new Answer("2", 0),
-		new Answer("3", 0)
+		new Answer("Для жестких дисков", 0),
+		new Answer("Для CD-DVD дисков", 1),
+		new Answer("Для логических дисков", 0),
+		new Answer("Он не нужен", 0)
 	])
 ];
 
